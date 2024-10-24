@@ -1,0 +1,53 @@
+.kocham_to-4 {
+    border-bottom: 30px solid $color3;
+    border-left: 50px solid $color4;
+  
+    &__content {
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: 100%;
+      flex: 1;
+      gap: 10px;
+      margin-top: 10px;
+      margin-bottom: 100px;
+  
+      &__image {
+        img {
+            width: 10vw;
+            margin-top: 10%;
+            height: auto;
+        }
+      }
+      &__image-2 {
+        img {
+          width: 20vw;
+          margin-top: 5%;
+          height: 50vw;
+        }
+      }
+      &__text {
+        width: 30vw;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right: 50%;
+        font-size: $font2;
+        height: 30vw;
+      }
+      &__text-2 {
+        width: 30vw;
+        margin-top: 10%;
+        margin-right: 60%;
+        margin-left: 40%;
+        font-size: $font2;
+        height: 30vw;
+      }
+      
+      h4 {
+        margin-bottom: 2em;
+      }
+    }
+  }
+  
